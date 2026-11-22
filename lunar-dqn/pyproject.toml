@@ -1,0 +1,24 @@
+[project]
+name = "lunar-dqn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abilmansur", email = "aliaidarmm0@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[box2d]>=1.4.0",
+    "matplotlib>=3.11.2",
+    "moviepy>=2.2.1",
+    "numpy>=2.5.5",
+    "tensorboard>=2.21.0",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+lunar-dqn = "lunar_dqn:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
