@@ -553,7 +553,7 @@ wheels = [
 [[package]]
 name = "lunar-dqn"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "gymnasium", extra = ["box2d"] },
     { name = "matplotlib" },
